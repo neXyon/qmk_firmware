@@ -25,6 +25,9 @@
 //#define SOFT_SERIAL_PIN D0
 
 #define ONESHOT_TAP_TOGGLE 2
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD
+#define RETRO_TAPPING
 
 /*
  * Feature disable options
