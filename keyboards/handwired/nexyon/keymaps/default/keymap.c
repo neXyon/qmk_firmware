@@ -332,8 +332,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [3] = LAYOUT_default(
         KC_TRNS, MN_ORDF, MN_ORDM, KC_NO,   KC_NO,   KC_NO,   MN_EXEC,                   MN_FILE, MN_STRL, MN_CURR, KC_PSLS, KC_PAST, KC_PMNS, KC_TRNS,
-        KC_TRNS, KC_PGUP, MN_TCBS, KC_UP,   KC_DEL,  KC_PGDN, KC_LGUI,                   MN_TERM, MN_EXCD, KC_7,    KC_8,    KC_9,    KC_PPLS, KC_TRNS,
-        KC_TRNS, KC_HOME, MN_TCLE, KC_DOWN, MN_TCRI, KC_END,                                      MN_QUED, KC_4,    KC_5,    KC_6,    MN_SEMI, KC_TRNS,
+        KC_TRNS, KC_PGUP, KC_BSPC, KC_UP,   KC_DEL,  KC_PGDN, KC_LGUI,                   MN_TERM, MN_EXCD, KC_7,    KC_8,    KC_9,    KC_PPLS, KC_TRNS,
+        KC_TRNS, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,                                      MN_QUED, KC_4,    KC_5,    KC_6,    MN_SEMI, KC_RSFT,
         KC_TRNS, MN_PAST, MN_CUT,  MN_COPY, MN_FIND, MN_UNDO,                                     MN_EQAL, KC_1,    KC_2,    KC_3,    MN_COLN, KC_TAB,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                                       KC_TRNS, KC_0,    KC_COMM, KC_DOT,  KC_PENT,
                                                      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
