@@ -27,7 +27,7 @@
 #define ONESHOT_TAP_TOGGLE 2
 #define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
-#define RETRO_TAPPING
+//#define RETRO_TAPPING
 
 /*
  * Feature disable options
